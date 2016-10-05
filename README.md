@@ -1,2 +1,2 @@
 # DoIt
-这是一个基于[Bmob云后](http://www.bmob.cn/)端写的一个APP
+这是一个基于[Bmob云后端](http://www.bmob.cn/)写的一个APP
