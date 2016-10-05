@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryDark">#2E7D32</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="primary">#81C784</color>
+    <color name="primary_dark">#4CAF50</color>
+    <color name="ripple">#F06292</color>
+    <color name="accent">#E91E63</color>
+    <color name="accent_pressed">#C2185B</color>
+    <color name="shape_null">#f4f3f3</color>
+    <color name="shape1">#64faff00</color>
+    <color name="shape2">#05e7ab</color>
+    <color name="shape3">#66CC00</color>
+    <color name="shape4">#ac02ef</color>
+    <color name="shape5">#d20c5f</color>
+    <color name="shape6">#ef020e</color>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="我的计划"
+            >
+
+            <menu>
+                <item
+                    android:icon="@drawable/all_plan"
+                    android:id="@+id/nav_all_plan"
+                    android:title="所有计划" />
+                <item
+                    android:icon="@drawable/ok_plan"
+                    android:id="@+id/nav_ok_plan"
+                    android:title="已完成" />
+            </menu>
+        </item>
+
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="云计划"
+            >
+
+            <menu>
+                <item
+                    android:icon="@drawable/yun_plan"
+                    android:id="@+id/nav_cloud_plan"
+                    android:title="我的云计划" />
+                <!--<item-->
+                    <!--android:icon="@drawable/add_yun_plan"-->
+                    <!--android:id="@+id/nav_add_yun_plan"-->
+                    <!--&lt;!&ndash;android:title="添加云计划" />&ndash;&gt;-->
+                <!--<item-->
+                    <!--android:icon="@drawable/add_yun_plan"-->
+                    <!--android:id="@+id/nav_new_cloud_plan"-->
+                    <!--android:title="新建云计划" />-->
+            </menu>
+        </item>
+
+    </group>
+
+
+    <item
+        android:icon="@drawable/login_out"
+        android:id="@+id/nav_loginout"
+        android:title="注销" />
+    <item
+        android:icon="@drawable/exit_to_app"
+        android:id="@+id/nav_out"
+        android:title="退出" />
+
+
+</menu>

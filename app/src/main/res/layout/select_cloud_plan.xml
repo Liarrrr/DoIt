@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="108dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/select_card_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <com.rey.material.widget.CheckBox
+            style="@style/Material.Drawable.CheckBox"
+            android:id="@+id/item_select"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="18dp"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="18dp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            app:cbd_boxSize="15dp"
+            android:textSize="20dp"
+            android:maxEms="10"
+            android:layout_centerVertical="true" />
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
