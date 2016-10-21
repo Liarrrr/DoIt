@@ -27,6 +27,7 @@ import com.zhuimeng.lsy.doit.util.DataOpreation;
 import com.zhuimeng.lsy.doit.util.OnStartDragListener;
 import com.zhuimeng.lsy.doit.bmob.PlanItem;
 import com.zhuimeng.lsy.doit.util.SimpleItemTouchHelperCallback;
+import com.zhuimeng.lsy.doit.util.SpaceItemDecoration;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -111,6 +112,8 @@ public class MainViewFragment extends Fragment implements OnStartDragListener, D
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
         myAdapter = new MyAdapter(planItemList, this);
+        int spaceDecoration=getResources().getDimensionPixelSize(R.dimen.recycler_space);
+        mRecyclerView.addItemDecoration(new SpaceItemDecoration(spaceDecoration));
         final LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this.getActivity());
         mRecyclerView.setLayoutManager(linearLayoutManager);
         mRecyclerView.setAdapter(myAdapter);
